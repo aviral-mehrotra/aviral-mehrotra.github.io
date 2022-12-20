@@ -30,7 +30,7 @@ export default function Home() {
               <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="/public/resume.pdf" download="Aviral Mehrotra's Resume">Resume</a></li>
             </ul>
           </nav>
-          <div className='relative w-20 h-20 md:w-80 md:h-80'>
+          <div className='relative w-20 h-20 md:w-40 md:h-40'>
             <Image />
           </div>
           <div className='text-center p-10'>
