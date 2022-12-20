@@ -3,8 +3,6 @@ import { BsFillMoonStarsFill, BsTerminalFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiFillMail,  } from 'react-icons/ai';
 import { FaGraduationCap } from 'react-icons/fa'
 import Image from 'next/image';
-import design from '../public/design.png'
-import code from '../public/code.png'
 import { useState } from 'react';
 
 
@@ -27,7 +25,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}  className='cursor-pointer text-2xl text-zinc-800 dark:text-slate-200'/>
               </li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="/public/resume.pdf" download="Aviral Mehrotra's Resume">Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="resume.pdf" download="Aviral Mehrotra's Resume">Resume</a></li>
             </ul>
           </nav>
           <div className='relative w-20 h-20'>
