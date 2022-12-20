@@ -28,7 +28,7 @@ export default function Home() {
               <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="resume.pdf" download="Aviral Mehrotra's Resume">Resume</a></li>
             </ul>
           </nav>
-          <div className='relative w-5 h-5 md:w-20 md:h-20'>
+          <div className='relative w-1 h-1 md:w-20 md:h-20'>
             <Image />
           </div>
           <div className='text-center p-10'>
