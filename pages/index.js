@@ -51,6 +51,12 @@ export default function Home() {
         </section>
         
         <section className='min-h-screen'>
+
+          <div className='text-center'>
+            <h3 className='text-2xl py-5 pt-10 md:text-4xl dark:text-gray-200'>
+              Experience
+            </h3>
+          </div>
           
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-slate-50 flex-1'>
