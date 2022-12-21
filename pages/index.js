@@ -20,19 +20,19 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-zinc-800'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl text-zinc-800 dark:text-slate-200'>aviralmehrotra</h1>
+            <h1 className='text-xl text-zinc-800 dark:text-slate-200'>aviral<span className="text-zinc-500 dark:text-zinc-400">mehrotra</span></h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}  className='cursor-pointer text-2xl text-zinc-800 dark:text-slate-200'/>
               </li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="resume.pdf" download="Aviral Mehrotra's Resume">Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-600 to-cyan-400 text-white px-4 py-2 rounded-md ml-8' href="resume.pdf" download="Aviral Mehrotra's Resume">Resume</a></li>
             </ul>
           </nav>
           <div className='relative w-1 h-1 md:w-20 md:h-20'>
             <Image />
           </div>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-7xl lg:text-9xl'>
+            <h2 className='text-5xl py-2 text-cyan-400 font-medium md:text-7xl lg:text-9xl'>
               Aviral Mehrotra
             </h2>
             <h3 className='text-2xl py-5 md:text-4xl dark:text-gray-200'>
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </section>
         
-        <section>
+        <section className='min-h-screen'>
           
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-slate-50 flex-1'>
