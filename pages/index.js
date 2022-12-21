@@ -53,7 +53,7 @@ export default function Home() {
         <section className='min-h-screen'>
 
           <div className='text-center'>
-            <h3 className='text-2xl py-5 pt-10 md:text-4xl dark:text-gray-200'>
+            <h3 className='text-2xl py-2 md:py-5 md:pt-10 md:text-4xl dark:text-gray-200'>
               Experience
             </h3>
           </div>
