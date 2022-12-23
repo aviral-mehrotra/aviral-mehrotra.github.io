@@ -277,11 +277,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='text-center bg-zinc-600 pb-12 rounded-xl'>
-          <h3 className='text-2xl md:py-5 md:pt-10 md:text-4xl text-slate-50 dark:text-gray-200'>
+        <section className='text-center bg-zinc-600 pb-8 md:pb-12 rounded-xl'>
+          <h3 className='text-2xl pt-5 pb-2 md:py-5 md:pt-10 md:text-4xl text-slate-50 dark:text-gray-200'>
             Let&apos;s collaborate!
           </h3>
-          <p className='text-slate-200 py-2 md:pb-4'>
+          <p className='text-slate-200 pt-2 pb-5 px-2 md:pb-4'>
             If you&apos;re interested in working with me on a research project, competition,
             or other project, feel free to email me and we can begin.
           </p>
@@ -333,14 +333,14 @@ export default function Home() {
         </section>
 
         <section className='text-center bg-zinc-600 -mx-40 px-40'>
-          <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10 lg:gap-y-0 py-2 md:py-5'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 lg:gap-y-0 py-2 md:py-5'>
             <h1 className='text-2xl md:text-3xl md:-ml-48 text-slate-200 dark:text-slate-200'>
               aviral
               <span className="text-zinc-500 dark:text-zinc-400">
                 mehrotra
               </span>
             </h1>
-            <div className='flex gap-3 justify-center'>
+            <div className='grid md:grid-cols-4 gap-3 justify-center pb-2 md:pb-0'>
               <a target="_blank" href="https://github.com/aviral-mehrotra" rel="noopener noreferrer">
                 <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-gray-500 bg-gray-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                   <AiFillGithub />
