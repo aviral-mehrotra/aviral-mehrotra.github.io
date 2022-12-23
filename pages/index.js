@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { BsFillMoonStarsFill, BsTerminalFill } from 'react-icons/bs';
+import { BsFillMoonStarsFill, BsTerminalFill, BsLink45Deg } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiFillMail,  } from 'react-icons/ai';
 import { FaGraduationCap } from 'react-icons/fa'
 import Image from 'next/image';
@@ -89,6 +89,143 @@ export default function Home() {
               <p className='text-slate-200 py-1'>React + Tailwind CSS</p>
               <p className='text-slate-200 py-1'>Google Cloud Functions</p>
               <p className='text-slate-200 py-1'>Git</p>
+            </div>
+          </div>
+        </section>
+
+        <section className='min-h-screen text-center'>
+          <h3 className='text-2xl md:py-5 md:pt-10 md:text-4xl dark:text-gray-200'>
+            Projects
+          </h3>
+          <div className='grid grid-cols-1 lg:grid-cols-3 lg:gap-10 lg:gap-y-0'>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>procrastiNOT</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-amber-200 border-solid border-2 border-amber-200 rounded-lg hover:cursor-default hover:border-amber-200 hover:border-solid'>
+                  Congressional App Challenge 2021 IL-07 Winner
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Python</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>SwiftUI</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>JS</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                An assignment prioritizer and scheduler that uses inputs from Aspen, Google Classroom,
+                and Google Calendar to help students prevent procrastination.
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="https://www.congressionalappchallenge.us/21-IL07/" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                    <BsLink45Deg />
+                    <h1>Read More</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>MetroSafe</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-amber-200 border-solid border-2 border-amber-200 rounded-lg hover:cursor-default hover:border-amber-200 hover:border-solid'>
+                  CodeDay: Most Useful App
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>SwiftUI</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Firebase</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                A public safety app that protects residents of urban communities by
+                providing crowdsourced information about crime and violence close to them.
+              </p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Stock Trading Assistant</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-amber-200 border-solid border-2 border-amber-200 rounded-lg hover:cursor-default hover:border-amber-200 hover:border-solid'>
+                  CodeDay: Best in Class App
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Python</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Yahoo Finance</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                A trading assistant that eases the transaction process for beginner
+                investors by providing them with investing tools and explaining terms such as “stop loss.”
+              </p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Modeling Vaccinations</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-amber-200 border-solid border-2 border-amber-200 rounded-lg hover:cursor-default hover:border-amber-200 hover:border-solid'>
+                  MTFC: 2021 Semi-finalist
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Python</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Excel</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                Co-authored "Distribution of the COVID-19 Vaccine to Minimize Cases in Chicago"
+                to model the ideal distribution of the COVID-19 vaccines in Chicago.
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="vaccinePaper.pdf" download="Distribution of the COVID-19 Vaccine to Minimize Cases in Chicago" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                    <BsLink45Deg />
+                    <h1>Paper</h1>
+                  </div>
+                </a>
+                <a target="_blank" href="https://github.com/aviral-mehrotra/COVID-19_Vaccine_Distribution_Plan" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                    <BsLink45Deg />
+                    <h1>Code</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Photovoltaic Systems</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-amber-200 border-solid border-2 border-amber-200 rounded-lg hover:cursor-default hover:border-amber-200 hover:border-solid'>
+                  MTFC: 2022 Semi-finalist
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Excel</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                Co-authored "Feasibility of Photovoltaic Energy System to Power Remote Home"
+                to model the optimal battery energy storage system (BESS) for buildings.
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="energyPaper.pdf" download="Feasibility of Photovoltaic Energy System to Power Remote Home" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                    <BsLink45Deg />
+                    <h1>Paper</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Prophecy</h3>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Python</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>XGBoost</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                A daily stock price predictor that uses an XGBoost regression model.
+                This model was used due to its ability to work with large datasets and its customizability.
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="https://github.com/aviral-mehrotra/Prophecy" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                    <BsLink45Deg />
+                    <h1>Code</h1>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
