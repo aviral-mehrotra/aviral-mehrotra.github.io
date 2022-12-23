@@ -292,7 +292,7 @@ export default function Home() {
               </div>
               <p className='text-slate-200 py-2'>
               A computer vision project using a Pynq-Z2 board, hls4ml, CNNs, FPGAs, and Python
-              that was incorporated into Fermilab's hls4ml Demo Lab at DEFCON 30.
+              that was incorporated into Fermilab&apos;s hls4ml Demo Lab at DEFCON 30.
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
               <a target="_blank" href="fermilab_hls4ml_slides.pdf" download="Fermilab hls4ml Presentation" rel="noopener noreferrer">
