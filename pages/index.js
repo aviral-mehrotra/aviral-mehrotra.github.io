@@ -230,6 +230,10 @@ export default function Home() {
           </div>
         </section>
 
+        <section className='min-h-screen'>
+
+        </section>
+
       </main>
     </div>
   )
