@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import { BsFillMoonStarsFill, BsTerminalFill, BsLink45Deg } from 'react-icons/bs';
-import { AiFillLinkedin, AiFillGithub, AiFillMail,  } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { FaGraduationCap } from 'react-icons/fa'
+import { MdOutlineArticle } from 'react-icons/md'
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -173,7 +174,7 @@ export default function Home() {
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="vaccinePaper.pdf" download="Distribution of the COVID-19 Vaccine to Minimize Cases in Chicago" rel="noopener noreferrer">
                   <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
-                    <BsLink45Deg />
+                    <MdOutlineArticle />
                     <h1>Paper</h1>
                   </div>
                 </a>
@@ -202,7 +203,7 @@ export default function Home() {
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="energyPaper.pdf" download="Feasibility of Photovoltaic Energy System to Power Remote Home" rel="noopener noreferrer">
                   <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
-                    <BsLink45Deg />
+                    <MdOutlineArticle />
                     <h1>Paper</h1>
                   </div>
                 </a>
