@@ -230,7 +230,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='min-h-screen'>
+        <section className='min-h-screen bg-transparent'>
 
         </section>
 
