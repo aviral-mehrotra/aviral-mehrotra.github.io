@@ -167,7 +167,7 @@ export default function Home() {
                 <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Excel</h4>
               </div>
               <p className='text-slate-200 py-2'>
-                Co-authored "Distribution of the COVID-19 Vaccine to Minimize Cases in Chicago"
+                Co-authored &quot;Distribution of the COVID-19 Vaccine to Minimize Cases in Chicago&quot;
                 to model the ideal distribution of the COVID-19 vaccines in Chicago.
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
@@ -196,7 +196,7 @@ export default function Home() {
                 <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Excel</h4>
               </div>
               <p className='text-slate-200 py-2'>
-                Co-authored "Feasibility of Photovoltaic Energy System to Power Remote Home"
+                Co-authored &quot;Feasibility of Photovoltaic Energy System to Power Remote Home&quot;
                 to model the optimal battery energy storage system (BESS) for buildings.
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
