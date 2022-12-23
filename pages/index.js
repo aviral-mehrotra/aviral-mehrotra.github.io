@@ -117,7 +117,7 @@ export default function Home() {
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="https://www.congressionalappchallenge.us/21-IL07/" rel="noopener noreferrer">
-                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                     <BsLink45Deg />
                     <h1>Read More</h1>
                   </div>
@@ -173,13 +173,13 @@ export default function Home() {
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="vaccinePaper.pdf" download="Distribution of the COVID-19 Vaccine to Minimize Cases in Chicago" rel="noopener noreferrer">
-                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                     <MdOutlineArticle />
                     <h1>Paper</h1>
                   </div>
                 </a>
                 <a target="_blank" href="https://github.com/aviral-mehrotra/COVID-19_Vaccine_Distribution_Plan" rel="noopener noreferrer">
-                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                     <BsLink45Deg />
                     <h1>Code</h1>
                   </div>
@@ -202,7 +202,7 @@ export default function Home() {
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="energyPaper.pdf" download="Feasibility of Photovoltaic Energy System to Power Remote Home" rel="noopener noreferrer">
-                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                     <MdOutlineArticle />
                     <h1>Paper</h1>
                   </div>
@@ -221,7 +221,7 @@ export default function Home() {
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="https://github.com/aviral-mehrotra/Prophecy" rel="noopener noreferrer">
-                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                     <BsLink45Deg />
                     <h1>Code</h1>
                   </div>
@@ -245,7 +245,7 @@ export default function Home() {
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="https://github.com/aviral-mehrotra/wordleap-onboarding-work" rel="noopener noreferrer">
-                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                     <BsLink45Deg />
                     <h1>Code</h1>
                   </div>
@@ -296,7 +296,7 @@ export default function Home() {
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
               <a target="_blank" href="fermilab_hls4ml_slides.pdf" download="Fermilab hls4ml Presentation" rel="noopener noreferrer">
-                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                     <BsLink45Deg />
                     <h1>Read More</h1>
                   </div>
