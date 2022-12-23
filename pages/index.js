@@ -228,6 +228,81 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>WordLeap</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-sky-200 border-solid border-2 border-sky-200 rounded-lg hover:cursor-default hover:border-sky-200 hover:border-solid'>
+                  Internship
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>React</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Python</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                An in-context translation API that helps non-native English speakers better understand content.
+                React was used to create components to help users navigate the app. 
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="https://github.com/aviral-mehrotra/wordleap-onboarding-work" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                    <BsLink45Deg />
+                    <h1>Code</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>EasyFood</h3>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>SwiftUI</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                An app that connects restaurants that often have remaining food at the end of the day that would otherwise
+                be wasted with underprivileged people that can benefit from an increased access to cheap but nutritious food.
+              </p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Natural Disaster Tracker</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-amber-200 border-solid border-2 border-amber-200 rounded-lg hover:cursor-default hover:border-amber-200 hover:border-solid'>
+                  NASA Space Apps: Chicago Winner & Global Qualifier
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>SwiftUI</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Firebase</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                A mobile app that combines NASA&apos;s live stream of natural disasters and crowdsourcing
+                to predict and display the route of natural disasters.
+              </p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Fermilab TARGET</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-sky-200 border-solid border-2 border-sky-200 rounded-lg hover:cursor-default hover:border-sky-200 hover:border-solid'>
+                  Internship
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Python</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>FPGA</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>CNNs</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+              A computer vision project using a Pynq-Z2 board, hls4ml, CNNs, FPGAs, and Python
+              that was incorporated into Fermilab's hls4ml Demo Lab at DEFCON 30.
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+              <a target="_blank" href="fermilab_hls4ml_slides.pdf" download="Fermilab hls4ml Presentation" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-default hover:border-slate-50 hover:border-solid items-center'>
+                    <BsLink45Deg />
+                    <h1>Read More</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </section>
 
