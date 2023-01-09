@@ -286,8 +286,8 @@ export default function Home() {
                 <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Blockchain</h4>
               </div>
               <p className='text-slate-200 py-2'>
-                Researching with a University of Waterloo Ph.D. candidate to leverage
-                blockchain technologies can be used to identify fraudulent Kickstarter campaigns
+                Researching with a University of Waterloo Ph.D. candidate to implement
+                blockchain technologies to identify fraudulent Kickstarter campaigns
 
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
