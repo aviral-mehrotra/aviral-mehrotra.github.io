@@ -3,6 +3,7 @@ import { BsFillMoonStarsFill, BsTerminalFill, BsLink45Deg } from 'react-icons/bs
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { FaGraduationCap } from 'react-icons/fa'
 import { MdArticle, MdOutlineArticle } from 'react-icons/md'
+import { GrAppleAppStore } from 'react-icons/gr'
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -274,6 +275,30 @@ export default function Home() {
                 to predict and display the route of natural disasters.
               </p>
             </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Kickstarter Fraud</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-sky-200 border-solid border-2 border-sky-200 rounded-lg hover:cursor-default hover:border-sky-200 hover:border-solid'>
+                  Research
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Blockchain</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                Researching with a University of Waterloo Ph.D. candidate to leverage
+                blockchain technologies can be used to identify fraudulent Kickstarter campaigns
+
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="energyPaper.pdf" download="Feasibility of Photovoltaic Energy System to Power Remote Home" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
+                    <MdOutlineArticle />
+                    <h1>Coming Soon</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -328,6 +353,24 @@ export default function Home() {
                 An app that connects restaurants that often have remaining food at the end of the day that would otherwise
                 be wasted with underprivileged people that can benefit from an increased access to cheap but nutritious food.
               </p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Recycleopedia</h3>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>SwiftUI</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                Recycling Encyclopedia: A mobile app that increases and improves recycling
+                by providing users with explanations of what products can and cannot be recycled.
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
+                    <GrAppleAppStore />
+                    <h1>Coming Soon</h1>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
