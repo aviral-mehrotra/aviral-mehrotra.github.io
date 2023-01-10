@@ -253,6 +253,31 @@ export default function Home() {
               </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>Taelor</h3>
+              <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
+                <h4 className='text-lg font-medium px-2 text-sky-200 border-solid border-2 border-sky-200 rounded-lg hover:cursor-default hover:border-sky-200 hover:border-solid'>
+                  Internship
+                </h4>
+              </div>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>SEO</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Liquid</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Web3</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+                An AI-based mens clothing subscription service. I worked on improving SEO,
+                developed code in Liquid, and researched Blockchain use cases and implementations.
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="https://taelor.style" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
+                    <BsLink45Deg />
+                    <h1>Read More</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
               <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>WordLeap</h3>
               <div className='flex gap-3 justify-center flex-wrap pb-2 md:pb-4'>
                 <h4 className='text-lg font-medium px-2 text-sky-200 border-solid border-2 border-sky-200 rounded-lg hover:cursor-default hover:border-sky-200 hover:border-solid'>
