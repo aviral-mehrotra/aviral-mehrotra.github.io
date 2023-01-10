@@ -288,7 +288,7 @@ export default function Home() {
               </div>
               <p className='text-slate-200 py-2'>
                 Researching with a University of Waterloo Ph.D. candidate to implement
-                blockchain technologies to identify fraudulent Kickstarter campaigns
+                blockchain technologies to identify fraudulent Kickstarter campaigns.
 
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
@@ -382,7 +382,7 @@ export default function Home() {
               </div>
               <p className='text-slate-200 py-2'>
                 A mobile app that designs menus for small restaurants given recipes and other
-                inputs created as the final project for the first semester of AP Computer Science A
+                inputs created as the final project for the first semester of AP Computer Science A.
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="https://github.com/aviral-mehrotra/APCSASemester1Project" rel="noopener noreferrer">
