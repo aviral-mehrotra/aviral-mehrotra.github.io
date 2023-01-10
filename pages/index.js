@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { BsFillMoonStarsFill, BsTerminalFill, BsLink45Deg } from 'react-icons/bs';
+import { BsFillMoonStarsFill, BsTerminalFill, BsLink45Deg, BsMedium } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { FaGraduationCap } from 'react-icons/fa'
 import { MdArticle, MdOutlineArticle } from 'react-icons/md'
@@ -48,6 +48,7 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-200'>
             <a target="_blank" href="https://github.com/aviral-mehrotra" rel="noopener noreferrer"><AiFillGithub /></a>
             <a target="_blank" href="https://www.linkedin.com/in/aviralmehrotra" rel="noopener noreferrer"><AiFillLinkedin /></a>
+            <a target="_blank" href="https://medium.com/@aviral.mehrotra" rel="noopener noreferrer"><BsMedium /></a>
             <a href="mailto:aviral.mehrotra@gmail.com" rel="noopener noreferrer"><AiFillMail /></a>
           </div>
         </section>
