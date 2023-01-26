@@ -421,7 +421,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='min-h-screen text-center pt-10'>
+        <section className='min-h-screen text-center pt-10 pb-20'>
           <h3 className='text-2xl md:py-5 md:pt-10 md:text-4xl dark:text-gray-200'>
             Medium Articles
           </h3>
@@ -438,6 +438,67 @@ export default function Home() {
               </p>
               <div className='flex gap-3 justify-center md:pt-2'>
                 <a target="_blank" href="https://medium.com/@aviral.mehrotra/tech-internships-as-a-high-school-student-everything-you-need-to-know-61fc53a1d4cf" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
+                    <BsMedium />
+                    <h1>Read More</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>The Congressional App Challenge: How to Develop a Winning Project</h3>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Hackathons</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Tutorial</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+              The Congressional App Challenge: a programming competition for middle and
+              high school students across the country hosted by members of Congress. This
+              guide is based on my previous...
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="https://medium.com/@aviral.mehrotra/the-congressional-app-challenge-how-to-develop-a-winning-project-9a1633179d22" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
+                    <BsMedium />
+                    <h1>Read More</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>How to Master Hackathons</h3>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Hackathons</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>Tutorial</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+              Hackathons: intense competitions with extremely short time frames
+              in which competitors develop projects as solutions to real-world problems.
+              Though the project theme might change from hackathon to hackathon, there are
+              two constants — friends and...
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="https://medium.com/@aviral.mehrotra/how-to-master-hackathons-93e56b216ded" rel="noopener noreferrer">
+                  <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
+                    <BsMedium />
+                    <h1>Read More</h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl mt-10 bg-slate-700 flex-1'>
+              <h3 className='text-xl font-bold pb-2 md:pb-5 text-slate-50'>ChatGPT: The Future of Programming</h3>
+              <div className='flex gap-3 justify-center flex-wrap md:pb-2'>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>AI</h4>
+                <h4 className='text-lg font-medium px-2 text-cyan-400 border-solid border-2 bg-cyan-800 border-cyan-800 rounded-lg hover:cursor-default hover:border-cyan-400 hover:border-solid'>ChatGPT</h4>
+              </div>
+              <p className='text-slate-200 py-2'>
+              In November 2022, OpenAI launched ChatGPT, a revolutionary AI chatbot
+              that is being used for several tasks such as writing business proposals
+              or creating complex mathematical models to analyze data.
+              </p>
+              <div className='flex gap-3 justify-center md:pt-2'>
+                <a target="_blank" href="https://medium.com/@aviral.mehrotra/chatgpt-the-future-of-programming-9a9d848cbff4" rel="noopener noreferrer">
                   <div className='flex gap-2 justify-center text-lg font-medium px-2 text-slate-50 border-solid border-2 border-slate-500 bg-slate-500 rounded-lg hover:cursor-pointer hover:border-slate-50 hover:border-solid items-center'>
                     <BsMedium />
                     <h1>Read More</h1>
